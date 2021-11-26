@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+    background-image: url("Presentación1.png");
+    background-size: contain;
+    
+}
+/*Seccion contenedor*/
+.contenedor-central{
+    background-color:black;
+    text-align: center;
+    color: aliceblue;
+    margin: 5em;
+    padding:2em;
+    border-radius: 2em;
+    height: 400px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-decoration:underline;
+    
+    
+}
+.partes{
+    display: flex;
+    text-align: justify;
+    
+}
+.part{
+    border: 2px  white solid;
+    margin: 1px;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 400px;
+    flex: 1;
+    
+}
