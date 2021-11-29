@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Angelta";
+    src: url("font/angelta_script/Angelta\ Script.ttf");
+}
+@font-face {
+    font-family: "Shepping";
+    src: url("font/sheeping_dogs/SheepingDogs.ttf");
+}
+@font-face {
+    font-family: "Diplomata";
+    src: url("font/Diplomata/Diplomata-Regular.ttf");
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 35em;
+    background-color: rgb(249, 252, 251);
+    border-radius: 20px;
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+.contenedor:hover{
+
+    
+}
+
+/*SECCION SLIDE*/
+.izquierdo{
+    display: inline;
+    width: 50%;
+    height: 100%;
+    background-image: url("img/puerta.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 3%;
+    border-radius: 20px;
+}
+.parte{
+    height: 33%;
+    text-align: center;
+}
+.parte p{
+    padding-top: 20%;
+    font-size: 1.5em;
+    color: aliceblue;
+
+}
+.parte a{
+    padding: 5%;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: aliceblue;
+    background:linear-gradient(360deg,rgb(75, 58, 2),rgba(172, 93, 3, 0.301));
+}
+
+hr{
+    width: 50%;
+}
+
+/*SECCION DESCRIPCION*/
+.derecho{
+    display: inline;
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(360deg,rgb(75, 58, 2),rgba(172, 93, 3, 0.301));
+    padding: 3%;
+    border-radius: 20px;
+
+}
+.derecho h1{
+    padding-top: 10%;
+    height: 20%;
+    text-align: center;
+    font-family: Diplomata;
+    font-size: 1.5em;
+    
+}
+.derecho h2{
+    text-align: center;
+    font-family: Angelta;
+    font-size: 3em;
+}
+.derecho p{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    color:aliceblue;
+    
+}
+.derecho img {
+    
+}
